@@ -7,7 +7,18 @@
     <title>Audio</title>
 </head>
 <body>
-    
-    
+    <div id="cont">
+        <div>
+        <audio  id="audio">
+        <source src="./Audio/audio.mp3" type="audio/mpeg"/>
+        </audio>
+        </div>
+        <div>        
+        <button id="mute"  onclick="muteAudio()">&#128266; </button>    
+        <button id="playbtn" onclick="playAudio()">&#9658;</button>     
+        <button id="forward"  onclick="forwardAudio()">&#x23ed;</button>     
+        </div>      
+        </div>    
+        <script src="index.js"></script> 
 </body>
 </html>
