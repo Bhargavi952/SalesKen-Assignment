@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.btn_cont{
+    width:100vw;
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30px; */
+}
+.btn2{
+    border: 1px solid cyan;
+    outline: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 16px;
+    background: none;
+}
+.btn{
+    border: 1px solid cyan;
+    outline: none;
+    width: 70px;
+    height: 50px;
+    border-radius: 20px;
+    background: none;
+}
