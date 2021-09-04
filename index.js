@@ -2,6 +2,7 @@ let audioButton = document.getElementById("audio");
 let button = document.getElementById("playbtn");
 
 var count = 0;
+// Play and Pasue funtion
 const playAudio = () => {
   if (count == 0) {
     count = 1;

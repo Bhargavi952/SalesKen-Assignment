@@ -1,17 +1,19 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.btn_cont{
-    width:100vw;
+
+.btn_cont {
+    width: 100vw;
     height: 100vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
     /* gap: 30px; */
 }
-.btn2{
+
+.btn2 {
     border: 1px solid cyan;
     outline: none;
     width: 60px;
@@ -19,7 +21,8 @@ body{
     border-radius: 16px;
     background: none;
 }
-.btn{
+
+.btn {
     border: 1px solid cyan;
     outline: none;
     width: 70px;
