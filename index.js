@@ -2,6 +2,7 @@ var audio = WaveSurfer.create({
   container: "#waveform",
   waveColor: "gray",
   progressColor: "#e83849",
+  barGap:"30"
 });
 
 audio.load("./Audio/audio.mp3");
@@ -32,10 +33,10 @@ let mute = false;
 const muteAudio = () => {
   mute = !mute;
   if (mute == true) {
-    audioButton.muted = true;
+    audio.setMute(true)
     muteButton.innerHTML = "&#128263;";
   } else {
-    audioButton.muted = false;
+    audio.setMute(false)
     muteButton.innerHTML = "&#128266;";
   }
 };
