@@ -1,3 +1,11 @@
+var audio = WaveSurfer.create({
+  container: "#waveform",
+  waveColor: "gray",
+  progressColor: "#e83849",
+});
+
+audio.load("./Audio/audio.mp3");
+
 let audioButton = document.getElementById("audio");
 let button = document.getElementById("playbtn");
 
@@ -6,12 +14,12 @@ var count = 0;
 const playAudio = () => {
   if (count == 0) {
     count = 1;
-    audioButton.play();
+    audio.play();
 
     button.innerHTML = "&#9616;&#9616;";
   } else {
     count = 0;
-    audioButton.pause();
+    audio.pause();
 
     button.innerHTML = "&#9658";
   }
