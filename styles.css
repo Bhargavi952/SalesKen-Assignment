@@ -13,7 +13,7 @@ body {
     /* gap: 30px; */
 }
 
-.btn2 {
+.sub_btn {
     border: 1px solid cyan;
     outline: none;
     width: 90px;
@@ -22,7 +22,7 @@ body {
     background: none;
 }
 
-.btn {
+.play_pause_btn {
     border: 1px solid cyan;
     outline: none;
     width: 90px;
