@@ -2,7 +2,9 @@ var audio = WaveSurfer.create({
   container: "#waveform",
   waveColor: "gray",
   progressColor: "#e83849",
-  barGap:"30"
+  barWidth: 2,
+  barHeifht: 1,
+  barGap:2
 });
 
 audio.load("./Audio/audio.mp3");
