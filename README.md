@@ -13,3 +13,8 @@
 
 ![2021-09-06-08-49-26](https://user-images.githubusercontent.com/77036158/132156122-3c9a6f79-b3a2-4b51-9033-b6eb77598046.png)
 
+## View
+
+- deployed link :
+### https://eloquent-thompson-3879a5.netlify.app/
+
