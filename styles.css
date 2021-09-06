@@ -14,7 +14,7 @@ body {
 }
 
 .sub_btn {
-    border: 1px solid cyan;
+    border: 3px solid cyan;
     outline: none;
     width: 90px;
     height: 30px;
@@ -23,7 +23,7 @@ body {
 }
 
 .play_pause_btn {
-    border: 1px solid cyan;
+    border: 3px solid cyan;
     outline: none;
     width: 90px;
     height: 50px;
