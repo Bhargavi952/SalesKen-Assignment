@@ -6,7 +6,7 @@
 - CSS
 - WaveSurfer.js
 
-##Snapshots
+## Snapshots
 ![2021-09-06-08-49-05](https://user-images.githubusercontent.com/77036158/132156118-e99ba60f-05d4-47a1-b70c-c84734383388.png)
 
 ![2021-09-06-08-49-10](https://user-images.githubusercontent.com/77036158/132156120-5ae5488d-c74a-4847-9dff-342d595ab4d9.png)
